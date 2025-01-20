@@ -1,13 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-import About from './about';
-import Home from './Home';
-import Blog from './blog';
 import Routing from './routing';
+import Header from './shared-components/header';
+import Footer from './shared-components/footer';
 
 function App() {
   return (
-    <Routing />
+    <>
+      <Header />
+      <Routing />
+      <Footer />
+    </>
+
   );
 }
 
