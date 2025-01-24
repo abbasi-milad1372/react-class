@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Routing from './routing';
 import Header from './shared-components/header';
 import Footer from './shared-components/footer';
